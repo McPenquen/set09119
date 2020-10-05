@@ -27,3 +27,7 @@ How to add a new source file into your project, the CMake way
 * Create the file
 * Edit CMakeLists.txt file in that project folder and add your file in the appropriate list, if it's .h or .cpp
 * In CMake, do Configure and Generate
+
+How will I create force objects that can be stored in an std::shared_ptr<Force>?
+  
+  Have a look at this example here: http://cpp.sh/3m5hv
