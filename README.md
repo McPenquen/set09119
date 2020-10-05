@@ -25,5 +25,5 @@ How to add a new source file into your project, the CMake way
 
 * Go to the project's folder
 * Create the file
-* Edit CMakeLists.txt file and add your file in the appropriate list, if it's .h or .cpp
+* Edit CMakeLists.txt file in that project folder and add your file in the appropriate list, if it's .h or .cpp
 * In CMake, do Configure and Generate
