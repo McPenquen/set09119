@@ -20,3 +20,10 @@ How to add your own project into the solution, the CMake way
 * Edit the file /code/CMakeLists.txt and add a "add_subdirectory" line to match the others
 * Edit the CMakeLists file in the new folder, e.g. /code/02_simulation_v2/CMakeLists.txt, and search and replace the old project name with the new (e.g. 02_simulation to 02_simulation_v2)
 * Re-run configure and generate in CMake
+
+How to add a new source file into your project, the CMake way
+
+* Go to the project's folder
+* Create the file
+* Edit CMakeLists.txt file and add your file in the appropriate list, if it's .h or .cpp
+* In CMake, do Configure and Generate
